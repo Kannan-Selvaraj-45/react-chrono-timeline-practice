@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project-duration-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.title {
+  font-weight: bold;
+  font-size: 20px;
+}
+.duration {
+  font-weight: bold;
+  font-size: 12px;
+}
+.description {
+  font-family: 'Roboto';
+  color: #1e293b;
+  align-self: flex-start;
+  padding-left: 10px;
+}
+a {
+  text-decoration: none;
+  align-self: flex-start;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: #0967d2;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.img {
+  width: 350px;
+  height: 300px;
+}
